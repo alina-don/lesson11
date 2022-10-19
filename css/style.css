@@ -1,0 +1,164 @@
+body {
+	background: url('../img/field.jpg') 0 0 / cover no-repeat;
+}
+
+
+.tractor__container {
+	position: absolute;
+	top: 550px;	
+	left: 28%;
+}
+
+.tractor__chassis {
+	width: 730px;
+	height: 50px;
+	background-color:olive;
+	
+	border-radius: 10px;
+	border: 3px solid rgb(90, 90, 15);
+
+	position: relative;
+	z-index: 10;
+}
+
+.chassis__front-wheel {
+	width: 230px;
+	height: 230px;
+	background-color:rgb(26, 26, 26);
+
+	border-radius: 50%;
+	outline: 8px dashed rgb(0, 0, 0);
+	
+	position: absolute;
+	top:-80px;
+	left: 30px;
+}
+
+.chassis__back-wheel {
+	width: 270px;
+	height: 270px;
+	background-color:rgb(26, 26, 26);
+
+	border-radius: 50%;
+	outline: 8px dashed rgb(0, 0, 0);
+	
+	position: absolute;
+	top:-119px;
+	left: 420px;
+}
+
+.front-wheel-disk {
+	width: 150px;
+	height: 150px;
+	background-color:rgb(99, 99, 99);
+
+	border-radius: 50%;
+	border: 8px solid rgb(22, 22, 22);
+	
+	position: absolute;
+	top: 38px;
+	left: 38px;
+}
+
+.back-wheel-disk {
+	width: 175px;
+	height: 175px;
+	background-color:rgb(99, 99, 99);
+
+	border-radius: 50%;
+	border: 8px solid rgb(22, 22, 22);
+	
+	position: absolute;
+	top: 47px;
+	left: 47px;
+}
+
+.tractor__hood {
+	width: 254px;
+	height: 142px;
+	background-color:gold;
+
+	border: 4px solid rgb(139, 102, 9);
+	border-radius: 100% 0% 100% 0% / 57% 100% 0% 43%;
+
+	position: absolute;
+	top: -141PX;
+	left: 70px;
+}
+
+.exhaust-pipe__thin {
+	width:20px;
+	height: 220px;
+	background-color: darkslategrey;
+
+	border: 3px solid rgb(13, 23, 23);
+
+	position: absolute;
+	top: -320px;
+	left: 240px;
+}
+
+.exhaust-pipe__thick {
+	width: 35px;
+	height: 100px;
+	background-color: darkslategrey;
+
+	border: 3px solid rgb(13, 23, 23);
+	border-radius: 7px;
+
+	position: absolute;
+	top: -223px;
+	left: 233px;
+}
+
+.cabin {
+	width: 300px;
+	height: 290px;
+	background-color:gold;
+
+	border: 4px solid rgb(139, 102, 9);
+	border-radius: 23% 15% 0% 10% / 61% 76% 10% 0%;
+
+	position: absolute;
+	top: -290PX;
+	left: 320px;
+}
+
+.cabin__window--front {
+	width: 140px;
+	height: 200px;
+	background-color:aquamarine;
+
+	border: 3px solid rgb(0, 88, 59);
+	border-radius: 36% 0% 34% 34% / 61% 20% 41% 0%;
+
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.cabin__window--back {
+	width: 90px;
+	height: 140px;
+	background-color:aquamarine;
+
+	border: 3px solid rgb(0, 88, 59);
+	border-radius: 0% 24% 18% 41% / 36% 36% 44% 0% ;
+
+	position: absolute;
+	top: 20px;
+	left: 170px;
+}
+
+.cabin__roof {
+	width: 260px;
+	height: 27px;
+	background-color:gold;
+
+	border: 4px solid rgb(139, 102, 9);
+	border-radius: 23% 15% 0% 10% / 61% 76% 10% 0%;
+
+	position: absolute;
+	top: -23px;
+	left: 22px;
+}
